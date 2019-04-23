@@ -115,10 +115,16 @@ a:hover {
 }
 
 /* ta bort lövet */
+.site-logo,
 .site-log-text-icon {
     display: none;
 }
 
 .site-log-text {
     margin-left: 15%;
+}
+
+.win,
+.end {
+    text-align: center;
 }

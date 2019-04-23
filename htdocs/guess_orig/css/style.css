@@ -1,0 +1,43 @@
+html {
+    width: 980px;
+    margin: auto;
+    background-color: #eee;
+}
+
+.middle {
+    background-color: #9d8c84;
+    min-height: 15em;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+.won {
+    background-color: #ccc;
+}
+
+.win {
+    text-align: center;
+    margin-top: 2em;
+    color: #004600;
+}
+
+.lost {
+    background-color: #020000;
+}
+
+.end {
+    color: #b20000;
+}
+
+h2 {
+    text-align: center;
+}
+
+p,
+form {
+    margin-left: 4em;
+}
