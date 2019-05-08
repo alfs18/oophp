@@ -27,27 +27,27 @@ class DiceGraphicTest extends TestCase
      * Construct object and verify that the object has the expected
      * properties. Use no arguments.
      */
-    public function testGetRes()
-    {
-        $dice = new DiceGraphic();
-        $this->assertInstanceOf("\Alfs\Dice\Dice", $dice);
-
-        $res = $dice->getRes();
-        $exp = null;
-        $this->assertEquals($exp, $res);
-    }
+    // public function testGetRes()
+    // {
+    //     $dice = new DiceGraphic();
+    //     $this->assertInstanceOf("\Alfs\Dice\Dice", $dice);
+    //
+    //     $res = $dice->getRes();
+    //     $exp = null;
+    //     $this->assertEquals($exp, $res);
+    // }
 
     /**
      * Construct object and verify that the object has the expected
      * properties. Use no arguments.
      */
-    public function testGetClass()
-    {
-        $dice = new DiceGraphic();
-        $this->assertInstanceOf("\Alfs\Dice\Dice", $dice);
-
-        $res = $dice->getClass();
-        $exp = null;
-        $this->assertEquals($exp, $res);
-    }
+    // public function testGetClass()
+    // {
+    //     $dice = new DiceGraphic();
+    //     $this->assertInstanceOf("\Alfs\Dice\Dice", $dice);
+    //
+    //     $res = $dice->getClass();
+    //     $exp = null;
+    //     $this->assertEquals($exp, $res);
+    // }
 }

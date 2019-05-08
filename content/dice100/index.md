@@ -7,3 +7,4 @@ I spelet 100 gäller det helt enkelt att komma först till 100. Detta gör du ge
 <br>För att spara dina poäng klickar du på knappen "Spara".
 
 [Starta ett nytt spel](dice/init)
+<br>[Spela version 2](dice2/init)
