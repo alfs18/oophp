@@ -30,6 +30,21 @@ return [
                         "url" => "redovisning/kmom02",
                         "title" => "Redovisning för kmom02.",
                     ],
+                    [
+                        "text" => "Kmom03",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],
+                    [
+                        "text" => "Kmom04",
+                        "url" => "redovisning/kmom04",
+                        "title" => "Redovisning för kmom04.",
+                    ],
+                    [
+                        "text" => "Kmom05",
+                        "url" => "redovisning/kmom05",
+                        "title" => "Redovisning för kmom05.",
+                    ],
                 ],
             ],
         ],
@@ -67,6 +82,11 @@ return [
             "text" => "Game 100",
             "url" => "dice100",
             "title" => "Spela 100",
+        ],
+        [
+            "text" => "Filmdatabasen",
+            "url" => "movie",
+            "title" => "Movie database",
         ],
     ],
 ];

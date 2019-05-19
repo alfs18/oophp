@@ -35,7 +35,13 @@ class DiceTest2 extends TestCase
         $res = $dice->getPlayer2();
         $exp = 0;
         $this->assertEquals($exp, $res);
+
+        $dice->changePlayer();
+        $res = $dice->getPlayer();
+        $exp = "Datorn";
+        $this->assertEquals($exp, $res);
     }
+
 
     /**
      * Construct object and verify that the object has the expected
@@ -75,20 +81,6 @@ class DiceTest2 extends TestCase
 
         $res = $dice->getPlayer();
         $exp = "Spelare 1";
-        $this->assertEquals($exp, $res);
-    }
-
-    /**
-     * Control that expected value gets returned.
-     */
-    public function testGetPlayer2()
-    {
-        $dice = new Dice2();
-        $this->assertInstanceOf("\Alfs\Dice2\Dice2", $dice);
-
-        $dice->changePlayer();
-        $res = $dice->getPlayer();
-        $exp = "Datorn";
         $this->assertEquals($exp, $res);
     }
 

@@ -46,9 +46,9 @@ class HistogramTraitTest extends TestCase
         $dice = new DiceGraphic2();
         $this->assertInstanceOf("\Alfs\Dice2\Dice2", $dice);
 
-        $dice->setHistogramSerie(2)
-        $dice->setHistogramSerie(3)
-        $dice->setHistogramSerie(6)
+        $dice->setHistogramSerie(2);
+        $dice->setHistogramSerie(3);
+        $dice->setHistogramSerie(6);
         $res = $dice->getHistogramMax();
         $exp = [2, 3, 6];
         $this->assertEquals($exp, $res);
