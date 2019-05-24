@@ -88,5 +88,15 @@ return [
             "url" => "movie",
             "title" => "Movie database",
         ],
+        [
+            "text" => "Content",
+            "url" => "content",
+            "title" => "Content database",
+        ],
+        [
+            "text" => "Test TextFilter",
+            "url" => "content/test-filter",
+            "title" => "MyTextFilter",
+        ],
     ],
 ];
